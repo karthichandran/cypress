@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scripts": "cypress run",
+    "test": "npm run scripts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^7.4.0"
+  },
+  "dependencies": {
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha-junit-reporter": "^2.0.0"
   }
 }
